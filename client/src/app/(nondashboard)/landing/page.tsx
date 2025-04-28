@@ -13,7 +13,6 @@ const Landing = () => {
       <DiscoverSection />
       <CallToActionSection />
       <FooterSection />
-
     </div>
   )
 }
