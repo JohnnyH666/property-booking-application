@@ -14,6 +14,7 @@ import managerRoutes from "./routes/managerRoutes";
 
 dotenv.config();
 const app = express();
+app.use(cors());
 app.use(express.json());
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({policy: "cross-origin"}));
