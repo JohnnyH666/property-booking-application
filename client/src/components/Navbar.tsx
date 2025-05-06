@@ -1,5 +1,5 @@
 "use client"
-import { NAVBAR_HEIGHT } from "@/app/lib/constants"
+import { NAVBAR_HEIGHT } from "@/lib/constants"
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"

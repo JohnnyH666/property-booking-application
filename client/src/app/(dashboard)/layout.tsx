@@ -1,7 +1,7 @@
 "use client"
 import Navbar from '@/components/Navbar'
 import React, { useEffect, useState } from 'react'
-import { NAVBAR_HEIGHT } from '../lib/constants'
+import { NAVBAR_HEIGHT } from '../../lib/constants'
 import { SidebarProvider } from "@/components/ui/sidebar"
 import { useGetAuthUserQuery } from '../state/api'
 import Sidebar from "@/components/AppSidebar";
