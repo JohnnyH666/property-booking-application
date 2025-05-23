@@ -27,7 +27,7 @@ const Map = () => {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current!,
       style: "mapbox://styles/johnny66666/cmaylljsl006i01rc1er6cgl0",
-      center: filters.coordinates || [138.6007, 34.9285],
+      center: filters.coordinates || [-74.5, 40],
       zoom: 9
     })
 
@@ -42,7 +42,7 @@ const Map = () => {
     resizeMap();
 
     return () => map.remove();
-  }) 
+  }, [isLoading, isError, properties, filters.coordinates]); 
   
   if (isLoading) return <>Loading...</>;
   if (isError || !properties) return <div> Failed to fetch properties </div>;
