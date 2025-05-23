@@ -1,6 +1,6 @@
-import { useGetPropertyQuery } from '@/app/state/api'
+import { useGetPropertyQuery } from '@/app/state/api';
 import { MapPin, Star } from 'lucide-react';
-import React from 'react'
+import React from 'react';
 
 const PropertyOverview = ({propertyId}: PropertyOverviewProps) => {
   const {

@@ -1,9 +1,9 @@
-import { useGetPropertyQuery } from '@/app/state/api'
+import { useGetPropertyQuery } from '@/app/state/api';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { AmenityIcons, HighlightIcons } from '@/lib/constants';
 import { formatEnumString } from '@/lib/utils';
 import { HelpCircle } from 'lucide-react';
-import React from 'react'
+import React from 'react';
 
 const PropertyDetails = ({propertyId}: PropertyOverviewProps) => {
   const {

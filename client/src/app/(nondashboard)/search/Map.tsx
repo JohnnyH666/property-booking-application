@@ -6,7 +6,6 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import { useAppSelector } from '@/app/state/redux';
 import { useGetPropertiesQuery } from '@/app/state/api';
 import { Property } from '@/types/prismaTypes';
-import { property } from 'lodash';
 
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
