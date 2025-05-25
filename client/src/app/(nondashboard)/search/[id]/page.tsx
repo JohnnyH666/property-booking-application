@@ -30,7 +30,6 @@ const SingleListing = () => {
           <ContactWidget onOpenModal={() => setIsModalOpen(true)} />
         </div>
       </div>
-      
     </div>
   );
 };
